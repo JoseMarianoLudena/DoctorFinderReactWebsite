@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/DoctorFinderReactWebsite/static/css/main.82c45f3b.css",
-    "main.js": "/DoctorFinderReactWebsite/static/js/main.1346b4f4.js",
+    "main.css": "/DoctorFinderReactWebsite/static/css/main.b467f682.css",
+    "main.js": "/DoctorFinderReactWebsite/static/js/main.c7c293cd.js",
     "static/js/453.06e56fcc.chunk.js": "/DoctorFinderReactWebsite/static/js/453.06e56fcc.chunk.js",
     "index.html": "/DoctorFinderReactWebsite/index.html",
-    "main.82c45f3b.css.map": "/DoctorFinderReactWebsite/static/css/main.82c45f3b.css.map",
-    "main.1346b4f4.js.map": "/DoctorFinderReactWebsite/static/js/main.1346b4f4.js.map",
+    "main.b467f682.css.map": "/DoctorFinderReactWebsite/static/css/main.b467f682.css.map",
+    "main.c7c293cd.js.map": "/DoctorFinderReactWebsite/static/js/main.c7c293cd.js.map",
     "453.06e56fcc.chunk.js.map": "/DoctorFinderReactWebsite/static/js/453.06e56fcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82c45f3b.css",
-    "static/js/main.1346b4f4.js"
+    "static/css/main.b467f682.css",
+    "static/js/main.c7c293cd.js"
   ]
 }
