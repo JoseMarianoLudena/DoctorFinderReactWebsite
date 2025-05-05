@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect} from 'react';
 import './App.css';
 
 const doctorsData = [
@@ -111,6 +111,27 @@ function App() {
   const [chatHistory, setChatHistory] = useState([]); // Store full conversation
   const [selectedDoctor, setSelectedDoctor] = useState(null);
   const [isChatOpen, setIsChatOpen] = useState(false);
+
+  // esta parte es del chatbot de BOTPRESS
+  useEffect(() => {
+    const injectScript = (src) => {
+      const script = document.createElement('script');
+      script.src = src;
+      script.async = true;
+      document.body.appendChild(script);
+      return script;
+    };
+  
+    const botpressWidget = injectScript("https://cdn.botpress.cloud/webchat/v2.4/inject.js");
+    const botpressConfig = injectScript("https://files.bpcontent.cloud/2025/05/05/14/20250505141130-EMUPD91G.js");
+  
+    // Limpieza al desmontar el componente
+    return () => {
+      document.body.removeChild(botpressWidget);
+      document.body.removeChild(botpressConfig);
+    };
+  }, []);
+  
 
   const handleSearch = (e) => {
     const term = e.target.value.toLowerCase();

@@ -83,7 +83,7 @@ h1 {
 .chat-widget {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 100px; /*esto antes era 20px pero por el botpress lo cambie*/
   z-index: 1000;
   
 }
@@ -288,3 +288,4 @@ h1 {
   color: #34495e;
   font-size: 1rem;
 }
+
